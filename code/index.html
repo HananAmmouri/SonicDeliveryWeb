@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>سونيك</title>
+    <title>شركة سونيك</title>
 </head>
 <body>
     <header>
@@ -14,8 +14,8 @@
             <nav>
                 <h3 class="logo">سونيك</h3>
                 <ul>
-                    <li><a href="">الرئيسية</a></li>
-                    <li><a href="#qualities">عن خدمتنا</a></li>
+                    <li><a href="#mid-body">الرئيسية</a></li>
+                    <li><a href="#qualities">خدمتنا</a></li>
                     <li><a href="#about-us-container">من نحن</a></li>
                     <li><a href="#contact-us">تواصل معنا</a></li>
                 </ul>
@@ -23,11 +23,11 @@
         </div>
     </header>
     <main>
-        <section class="mid-body">
+        <section id="mid-body" class="mid-body">
             <div class="slogen">
                 <div class="colored-background">
                     <h1>شركة <span>سونيك..</span> طلبك يوصل بسرعة</h1>
-                    <h3>نقدم لك أفضل وأسرع الحلول لتوصيل منتجاتك في كافة أنحاء ليبيا</h3>
+                    <h3>نقدم لك أفضل وأسرع الطرق لتوصيل منتجاتك في كافة أنحاء ليبيا</h3>
                     <button class="btn"><a href="#about-us-container">أعرف أكثر عنا</a></button>
                 </div>
             </div>
@@ -69,14 +69,17 @@
                 <div class="about-us-content">
                     <h2>من نحن؟</h2>
                     <p>
-                        شركة سونيك هي شركة توصيل تأسست في عام 2023 بهدف توفير السبل لكافة القطاعات لتوصيل منتجاتها لجميع الأرجاء. لدينا فروع في كافة أنحاء ليبيا، يتكون طاقمنا من مجموعة متنوعة من ذوي الخبرة في التوصيل والتعامل مع العملاء.
+                        شركة <span>سونيك</span> هي شركة توصيل تأسست عام 2023 بهدف توفير السبل لكافة القطاعات لتوصيل منتجاتها لجميع الأرجاء. لدينا فروع في كافة أنحاء ليبيا، يتكون طاقمنا من مجموعة متنوعة من ذوي الخبرة في التوصيل والتعامل مع العملاء.
                     </p>
                 </div>
                 <img src="../media/nik-sYVY_ZKwaxU.jpg" alt="box">
             </div>
             </section>
         <section id="contact-us" class="contact-us">
-            <h2>تواصل معنا</h2>
+            <div class="contact-us-header">
+                <h2>تواصل معنا</h2>
+                <i class="fa-solid fa-message"></i>
+            </div>
             <form action="">
                 <label for="name">اسمك</label>
                 <input type="text" name="" id="name">
@@ -91,15 +94,16 @@
     <div class="footer-container">
         <footer>
             <p>
-                شركة سونيك <span>&copy;</span>
+                شركة سونيك 2023 <span>&copy;</span>
             </p>
             <div class="social-media">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a> 
+                <a href="#"><i id = "fb" class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i id = "ig" class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i id = "tw" class="fa-brands fa-twitter"></i></a> 
+                <a href="#"><i id = "location" class="fa-solid fa-location-dot"></i></a>
             </div>
         </footer>
     </div>
-    
+    <script src="animations.js"></script>
 </body>
 </html>
